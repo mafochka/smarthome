@@ -1,0 +1,23 @@
+.table{
+margin-top: 30px;
+
+}
+
+
+.q{
+float: right;
+margin-top: -343px;
+margin-right: 434px;
+}
+
+tr {
+height: 29px;
+}
+input	{
+width:65px;
+}
+
+.a {
+margin-left: 389px;
+margin-top: -343px;
+}
