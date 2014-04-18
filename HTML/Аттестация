@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css">
+        <title>Аттестация</title>
+		<script>
+            function addToTableBody(work)
+            {
+                var entry = [work],
+                tableContent = "<tr>";
+
+                for (var i = 0; i < 1; i++)
+                {
+                    tableContent += "<td>" + entry[i] + "</td>";
+                };
+                tableContent += "</tr>";
+                tableBody.innerHTML += tableContent;
+
+            };
+
+            function addSelect()
+            {
+                
+            };
+        </script>
+			<!--<script>
+            function addToTableBody(skill)
+            {
+                var entry = [skill],
+                tableContent = "<tr>";
+
+                for (var i = 0; i < 1; i++)
+                {
+                    tableContent += "<td>" + entry[i] + "</td>";
+                };
+                tableContent += "</tr>";
+                tableBody.innerHTML += tableContent;
+
+            };
+
+            function addSelect()
+            {
+                
+            };
+        </script>-->
+    </head>
+    <body>
+		<div class="table">
+        <table>
+			<tr>
+				<td>Петров</td>
+			</tr>
+				<tr>			
+				<td>Сидоро</td>
+				</tr>
+				<tr>
+				<td>Ярмантович</td>
+				</tr>
+				<tr>
+				<td>Жагунь</td>
+				</tr>
+				<tr>
+				<td>Ковалевский</td>
+				</tr>
+				<tr>
+				<td>Ярмик</td>
+				</tr>
+				<tr>
+				<td>Вася</td>
+				</tr>
+				<tr>
+				<td>Петя</td>
+				</tr>
+				<tr>
+				<td>Коля</td>
+				</tr>
+				<tr>
+				<td>Женя</td>
+				</tr>
+			
+		</table>
+		</div>
+		<div class = "q">
+        <input type="text" id="work"> 
+        <button onclick="addToTableBody(work.value);"> 
+            Добавить предмет 
+        </button>
+        <table id="table" border="1"> 
+           <thead> 
+              <tr></tr> 
+               </thead>
+               <tbody id="tableBody">
+               </tbody> 
+        </table>
+		</div>
+		<!--<div class = "a">
+        <input type="text" id="skill"> 
+        <button onclick="addToTableBody(skill.value);"> 
+            Добавить оценку 
+        </button>
+        <table id="table" border="1"> 
+           <thead> 
+              <tr></tr> 
+               </thead>
+               <tbody id="tableBody">
+               </tbody> 
+        </table>
+		</div>-->
+    </body>
+</html>
